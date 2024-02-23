@@ -53,7 +53,7 @@ The block above tells nvim-treesitter where to find the logstash parser, defines
 
 In vim now run
 ```
-:TSInstall logstah
+:TSInstall logstash
 ```
 
 This will load the logstash parser into neovim. Now you need to link the syntax highlighting file to a place where neovim can find it.(See [this](https://github.com/nvim-treesitter/nvim-treesitter?tab=readme-ov-file#adding-parsers) for why)
